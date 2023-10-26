@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="demo3">:</span>
+    <span id="demo1">:</span>
+    <span id="demo2">:</span>
+    <script>
+        setInterval(myFunction, 1000);
+
+        function myFunction() {
+        date = new Date()x
+        document.getElementById("demo3").innerHTML = date.getHours();
+        document.getElementById("demo2").innerHTML = date.getSeconds();
+        document.getElementById("demo1").innerHTML = date.getMinutes();
+        }
+            
+        // var jwb = prompt("pertanyaan")
+        // var jawaban = (jwb.toUpperCase() == "IYA") ? "B" : "S"
+        // document.write(`jawaban :  ${jawaban}`)
+        
+    </script>
+</body>
+</html>
